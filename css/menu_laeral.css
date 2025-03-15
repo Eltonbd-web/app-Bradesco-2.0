@@ -1,0 +1,44 @@
+menu {
+    position: absolute;
+    display: block;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+    margin-right: 50px;
+    height: 100%;
+    width: 0vw;
+    overflow: auto;
+    transition: width 1s;
+    overflow-x: hidden;
+}
+
+menu ul {
+    margin-left: -300px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 1s ease;
+}
+
+menu a {
+    align-items: center;
+    display: flex;
+    vertical-align: top;
+    font-size: 15px; 
+    text-align: left;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    
+
+}
+menu li {
+    padding: 10px;
+    list-style: none;
+}
+
+menu span {
+    font-size: 20px;
+    padding-right: 15px;
+    color:purple;
+}

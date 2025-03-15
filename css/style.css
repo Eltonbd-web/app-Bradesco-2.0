@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    height: 100vh;
+    background-image: linear-gradient(135deg, purple, red);
+    background-repeat: no-repeat;
+    
+}
+body a{
+    text-decoration: none;
+}
+section {
+    
+    padding: 15px;
+}
+
+section a, nav a, nav, section icon{
+    color: #ffff;
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+}
+#area_img {
+    height: 30vh;
+    width: 30%;
+}
+
+img {
+    
+    width: 200px;
+    
+}
+#nome_ag_cc{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    height: calc(30vh-30px);
+    
+    
+    
+    
+}
+#area_nome_ag {
+    width: 80%;
+}
+#nome{
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    color:red;
+    margin-bottom: 15px;
+}
+
+#acessar_outra_conta {
+    display: block;
+    text-align: center;
+    
+}
+#footer{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#footer > li {
+    padding: 10px;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+#li_center {
+    border-left: 1px  solid #ffff;
+    border-right: 1px solid #ffff;
+}
+
+#navegacao_2 {
+    height: 20vh;
+}

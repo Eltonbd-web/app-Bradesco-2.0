@@ -1,0 +1,67 @@
+/*parte da seleção de conta*/
+
+#selecao_conta {
+    height: 0;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px 20px 0px 0px ;
+    bottom: -30px;
+    
+    
+    position: absolute;
+    
+    background-color: white;
+    overflow: hidden;
+    transition: height 1s ease;
+    
+    
+}
+
+
+#selecao_conta p {
+    margin: 10px;
+    text-align: start;
+    color:black;
+}
+#seta2 {
+
+    
+    
+    width: 100%;
+    position: top;
+    color: blue;
+    text-align: center;
+    
+    
+}
+
+
+#nome_conta_seta {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+    
+
+    
+}
+#seta3 {
+    
+    color: blue;
+}
+
+#outra_conta {
+
+    width: 100%;
+    
+    
+    border-radius: 50px;
+    
+    background-color: purple;
+    color: white;
+}
+
+
+
