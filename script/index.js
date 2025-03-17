@@ -59,7 +59,8 @@ function moverArea(){
 
 /*controle de abertura de menus, para não abrir mais de um
 menu simultaneamente */
-
+/*
 if(abrir_menu.style.width == "80vw"){
     document.getElementById("selecao_conta").style.height = "0"; 
 }
+    */
